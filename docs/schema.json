@@ -1,0 +1,35 @@
+[
+    
+    //Catálogo de Síntomas
+    {
+        "nombre":"fiebre",
+        "unidad":"porcentaje",
+        "valor":50
+    },
+    
+    //Reporte del usuario
+    {
+        "usuario":"ccampos",
+        "fecha":"currenttimestamp",
+        "ubicacion": {
+                "latitud":115.45,
+                "longitud":89.56,
+                "pais":"Nicaragua",
+                "idPais":"NI",
+                "ciudad":"Managua",
+                "idCiudad":31265
+        },      
+        "clima": { //todo esto es generado por la API                 
+            "temperatura":35,
+            "humedad":39
+        },
+        "sintomas":[
+            {
+                "fiebre":50,
+                "tos":47,
+                "alergias":89
+            }
+        ]
+    }
+    
+]
